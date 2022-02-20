@@ -1,0 +1,12 @@
+#!/bin/bash
+if cd folder_1
+then 
+	pwd
+else 
+	mkdir folder_1; cd folder_1
+fi
+mkdir {f_1,f_2,f_3}
+cd f_1
+touch {text1.txt,text2.txt,text3.txt,j_1.json,j_2.json}
+mkdir {p_1,p_2,p_3}
+ls -la
